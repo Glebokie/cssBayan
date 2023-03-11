@@ -202,3 +202,24 @@ body {
     padding: 10px;
     display: inline-block;
   }
+
+  .memes-input:checked ~ .memes-title .memes-icon_a {
+    background: url("../cssBayan/assets/img/close.png") 0 0/contain no-repeat;
+    padding: 7px;
+    display: inline-block;
+  }
+  .memes-input:checked ~ .memes-title .memes-icon_b {
+    background: url("../cssBayan/assets/img/close.png") 0 0/contain no-repeat;
+    padding: 7px;
+    display: inline-block;
+  }
+  .memes-input:checked ~ .memes-title .memes-icon_c {
+    background: url("../cssBayan/assets/img/close.png") 0 0/contain no-repeat;
+    padding: 7px;
+    display: inline-block;
+  }
+  .memes-input:checked ~ .memes-title .memes-icon_d {
+    background: url("../cssBayan/assets/img/close.png") 0 0/contain no-repeat;
+    padding: 7px;
+    display: inline-block;
+  }
