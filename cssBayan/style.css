@@ -123,3 +123,29 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  .memes-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    position: absolute;
+  }
+  
+  .memes-text {
+    position: relative;
+    transition: all linear 0.6s;
+    overflow: hidden;
+    height: 0;
+    font-size: 14px;
+  }
+  .memes-input:checked ~ .memes-text {
+    height: auto;
+    padding: 10px 15px;
+    transition: all linear 0.6s;
+  }
+  
+  .memes-input:checked ~ .memes-title {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+  }
