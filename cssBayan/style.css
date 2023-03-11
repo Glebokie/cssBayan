@@ -149,3 +149,56 @@ body {
     color: rgb(0, 0, 0);
     font-weight: 700;
   }
+
+  .memes-image_a {
+    background: url("./assets/img/BMW1.jpg") 0 0/contain no-repeat;
+    padding: 20rem 0 0 0;
+    margin: 0 auto;
+    max-width: 30rem;
+    transition: all linear 0.6s;
+  }
+  .memes-image_b {
+    background: url("./assets/img/BMW2.jpg") 0 0/contain no-repeat;
+    padding: 20rem 0 0 0;
+    margin: 0 auto;
+    max-width: 30rem;
+    transition: all linear 0.6s;
+  }
+  .memes-image_c {
+    background: url("./assets/img/BMW3.jpg") 0 0/contain no-repeat;
+    padding: 20rem 0 0 0;
+    margin: 0 auto;
+    max-width: 30rem;
+    transition: all linear 0.6s;
+  }
+  .memes-image_d {
+    background: url("./assets/img/BMW4.jpg") 0 0/contain no-repeat;
+    padding: 20rem 0 0 0;
+    margin: 0 auto;
+    max-width: 30rem;
+    transition: all linear 0.6s;
+  }
+  
+  .memes-icon_a {
+    background: url("./assets/img/plus.png") 0 0/contain no-repeat;
+    padding: 10px;
+    display: inline-block;
+  }
+  .memes-icon_b {
+    background: url("./assets/img/plus.png") 0 0/contain no-repeat;
+    padding: 20px 0 0 0;
+    padding: 10px;
+    display: inline-block;
+  }
+  .memes-icon_c {
+    background: url("./assets/img/plus.png") 0 0/contain no-repeat;
+    padding: 20px 0 0 0;
+    padding: 10px;
+    display: inline-block;
+  }
+  .memes-icon_d {
+    background: url("./assets/img/plus.png") 0 0/contain no-repeat;
+    padding: 20px 0 0 0;
+    padding: 10px;
+    display: inline-block;
+  }
