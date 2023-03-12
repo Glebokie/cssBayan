@@ -184,24 +184,29 @@ body {
     background: url("./assets/img/plus.png") 0 0/contain no-repeat;
     padding: 10px;
     display: inline-block;
+    transition: all linear .6s;
   }
   .memes-icon_b {
     background: url("./assets/img/plus.png") 0 0/contain no-repeat;
     padding: 20px 0 0 0;
     padding: 10px;
     display: inline-block;
+    transition: all linear .6s;
+    
   }
   .memes-icon_c {
     background: url("./assets/img/plus.png") 0 0/contain no-repeat;
     padding: 20px 0 0 0;
     padding: 10px;
     display: inline-block;
+    transition: all linear .6s;
   }
   .memes-icon_d {
     background: url("./assets/img/plus.png") 0 0/contain no-repeat;
     padding: 20px 0 0 0;
     padding: 10px;
     display: inline-block;
+    transition: all linear .6s;
   }
 
   .memes-input:checked ~ .memes-title .memes-icon_a {
