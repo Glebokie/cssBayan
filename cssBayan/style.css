@@ -135,10 +135,11 @@ body {
   
   .memes-text {
     position: relative;
-    transition: all linear 0.6s;
+    transition: all linear 1s;
     overflow: hidden;
     height: 0;
     font-size: 14px;
+    cursor: pointer;
   }
   .memes-input:checked ~ .memes-text {
     height: auto;
@@ -150,34 +151,49 @@ body {
     color: rgb(0, 0, 0);
     font-weight: 700;
   }
-
+  .memes-input:checked ~ .memes-text .memes-image_a  {
+    padding: 20rem 0 0 0;
+  }
+  .memes-input:checked ~ .memes-text .memes-image_b  {
+    padding: 20rem 0 0 0;
+  }
+  .memes-input:checked ~ .memes-text .memes-image_c  {
+    padding: 20rem 0 0 0;
+  }
+  .memes-input:checked ~ .memes-text .memes-image_d  {
+    padding: 20rem 0 0 0;
+  }
   .memes-image_a {
     background: url("./assets/img/BMW1.jpg") 50%/contain no-repeat;
-    padding: 20rem 0 0 0;
+    padding: 0rem 0 0 0;
     margin: 0 auto;
     max-width: 30rem;
-    transition: all linear 0.6s;
+    transition: all linear .6s;
+   
   }
   .memes-image_b {
     background: url("./assets/img/BMW2.jpg") 50%/contain no-repeat;
-    padding: 20rem 0 0 0;
+    padding: 0rem 0 0 0;
     margin: 0 auto;
     max-width: 30rem;
-    transition: all linear 0.6s;
+    transition: all linear .6s;
+    
   }
   .memes-image_c {
     background: url("./assets/img/BMW3.jpg") 50%/contain no-repeat;
-    padding: 20rem 0 0 0;
+    padding: 0rem 0 0 0;
     margin: 0 auto;
     max-width: 30rem;
-    transition: all linear 0.6s;
+    transition: all linear .6s;
+   
   }
   .memes-image_d {
     background: url("./assets/img/BMW4.jpg") 50%/contain no-repeat;
-    padding: 20rem 0 0 0;
+    padding: 0rem 0 0 0;
     margin: 0 auto;
     max-width: 30rem;
-    transition: all linear 0.6s;
+    transition: all linear .6s;
+   
   }
   
   .memes-icon_a {
@@ -246,6 +262,27 @@ body {
     .memes:hover {
       color: #000000;
     }
+    .memes-title:hover ~ .memes-text {
+      height: auto;
+      transition: .6s;
+    }
+    .memes-title:hover ~ .memes-text .memes-image_a  {
+      padding: 20rem 0 0 0;
+    }
+    
+    .memes-title:hover ~ .memes-text .memes-image_b  {
+      padding: 20rem 0 0 0;
+    }
+    .memes-title:hover ~ .memes-text .memes-image_c  {
+      padding: 20rem 0 0 0;
+    }
+    .memes-title:hover ~ .memes-text .memes-image_d  {
+      padding: 20rem 0 0 0;
+    }
+    .memes-title:hover ~ .memes-title .memes-icon_a  {
+      background: url("../cssBayan/assets/img/close.png") 0 0/contain no-repeat;
+    }
+    
     .memes:hover .memes-main {
       color: #000000;
     }
