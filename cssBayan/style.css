@@ -264,8 +264,26 @@ body {
     }
     .memes-title:hover ~ .memes-text {
       height: auto;
-      transition: .6s;
+      transition: 2s;
     }
+    .memes-item:hover .memes-text {
+      height: auto;
+      transition: 2s;
+      padding: 10px 15px;
+    }
+    .memes-item:hover .memes-text .memes-image_a {
+      padding: 20rem 0 0 0;
+    }
+    .memes-item:hover .memes-text .memes-image_b {
+      padding: 20rem 0 0 0;
+    }
+    .memes-item:hover .memes-text .memes-image_c {
+      padding: 20rem 0 0 0;
+    }
+    .memes-item:hover .memes-text .memes-image_d {
+      padding: 20rem 0 0 0;
+    }
+    
     .memes-title:hover ~ .memes-text .memes-image_a  {
       padding: 20rem 0 0 0;
     }
