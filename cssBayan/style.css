@@ -97,6 +97,7 @@ body {
     font-size: 0px;
   }
   .memes {
+    padding: 40px 0 0 0;
     max-width: 50%;
     min-width: 20rem;
     margin: 0 auto;
@@ -272,5 +273,11 @@ body {
     }
     .memes-image_d {
       padding: 150px 0 0 0;
+    }
+  }
+  @media (max-width: 320px) {
+    .memes {
+      min-width: 15rem;
+     
     }
   }
